@@ -1,4 +1,3 @@
-Deepanshu, here's a concise GitHub README for your code:
 
 ---
 
@@ -28,6 +27,4 @@ This simple React application allows you to fetch and display random images from
 
 ---
 
-Opinion: This README provides a clear and concise explanation of your code.
 
-Factual: The information provided in the README is factual.
