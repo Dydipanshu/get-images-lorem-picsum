@@ -1,4 +1,5 @@
 
+
 ---
 
 # React Image Fetcher
@@ -15,6 +16,14 @@ This simple React application allows you to fetch and display random images from
 
 4. The images are then displayed on the page using the `map` method, with each image's URL being set as the source for an `<img>` element.
 
+## Live Preview
+
+You can check out a live preview of this app [here](https://lorem-piscum.netlify.app/).
+
+## Video Tutorial
+
+This project was developed with the help of the following video tutorial: [YouTube Video](https://www.youtube.com/watch?v=2LsOyOaobrc&t=704s).
+
 ## Usage
 
 1. Clone this repository to your local machine.
@@ -26,5 +35,3 @@ This simple React application allows you to fetch and display random images from
 4. Open your browser and visit `http://localhost:3000/` to see the app in action.
 
 ---
-
-
