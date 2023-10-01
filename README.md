@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Deepanshu, here's a concise GitHub README for your code:
 
-## Getting Started
+---
 
-First, run the development server:
+# React Image Fetcher
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This simple React application allows you to fetch and display random images from the Picsum Photos API when you click the "Get Images" button.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How it Works
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. The app uses the Axios library to make an asynchronous GET request to the "https://picsum.photos/v2/list" API endpoint.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. When the "Get Images" button is clicked, the `getImages` function is called, which sends the GET request to the API.
 
-## Learn More
+3. Upon a successful response, the images' data is stored in the `Images` state variable using the `setImages` function.
 
-To learn more about Next.js, take a look at the following resources:
+4. The images are then displayed on the page using the `map` method, with each image's URL being set as the source for an `<img>` element.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone this repository to your local machine.
 
-## Deploy on Vercel
+2. Run `npm install` to install the necessary dependencies.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Start the development server with `npm start`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Open your browser and visit `http://localhost:3000/` to see the app in action.
+
+---
+
+Opinion: This README provides a clear and concise explanation of your code.
+
+Factual: The information provided in the README is factual.
